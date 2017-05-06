@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "content-hash": "4a24acd5102eb3db3e8ee1aa527595e7",
+    "content-hash": "c29b13674a37fb39564dfdf64b13e21b",
     "packages": [
         {
             "name": "cartalyst/sentinel",
@@ -2244,6 +2244,50 @@
                 "object graph"
             ],
             "time": "2017-04-12T18:52:22+00:00"
+        },
+        {
+            "name": "ozankurt/repoist",
+            "version": "1.0.1",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/OzanKurt/Repoist.git",
+                "reference": "03812fcff931849d65765f9cecd451d698030460"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/OzanKurt/Repoist/zipball/03812fcff931849d65765f9cecd451d698030460",
+                "reference": "03812fcff931849d65765f9cecd451d698030460",
+                "shasum": ""
+            },
+            "require": {
+                "illuminate/support": "~5.0",
+                "php": ">=5.4.0"
+            },
+            "require-dev": {
+                "phpspec/phpspec": "~2.1"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "Kurt\\Repoist\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Ozan Kurt",
+                    "email": "hello@ozankurt.com"
+                }
+            ],
+            "description": "Laravel 5 repository generator.",
+            "keywords": [
+                "laravel",
+                "repoist"
+            ],
+            "time": "2015-05-15T19:01:06+00:00"
         },
         {
             "name": "phpdocumentor/reflection-common",

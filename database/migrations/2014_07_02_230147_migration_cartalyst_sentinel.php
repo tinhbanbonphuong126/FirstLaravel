@@ -98,7 +98,7 @@ class MigrationCartalystSentinel extends Migration
             $table->string('name', 30);
             $table->string('account');
             $table->string('password');
-            $table->boolean('stop_flag'); // 1/0 = active/inactive
+            $table->boolean('stop_flg'); // 1/0 = active/inactive
             $table->text('permissions')->nullable();
             $table->timestamp('last_login')->nullable();
             $table->timestamps();
